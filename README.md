@@ -1,37 +1,77 @@
-# Blog Website 📝
+# WanderSphere 🌍
 
-A simple and responsive blog website built using frontend technologies.
+WanderSphere is a full-stack web application designed to help users explore, list, and manage rental properties efficiently through a user-friendly interface.
 
 ---
 
 ## 🚀 Features
 
-* Clean and modern UI
-* Blog layout design
-* Responsive design (mobile & desktop)
-* Static blog content display
+* User Authentication (Signup / Login)
+* Add new listings (properties)
+* Edit and delete listings
+* View detailed property information
+* Responsive design
 
 ---
 
 ## 🛠 Tech Stack
 
+### Frontend
+
 * HTML
 * CSS
 * JavaScript
+* EJS (Embedded JavaScript Templates)
+
+### Backend
+
+* Node.js
+* Express.js
+
+### Database
+
+* MongoDB
 
 ---
 
-## ⚙️ How to Run
+## ⚙️ Installation & Setup
 
 1. Clone the repository:
 
-```
-git clone https://github.com/Prince-karn/blog-website.git
+```bash
+git clone https://github.com/Prince-karn/WanderSphere.git
 ```
 
-2. Open the project folder
+2. Navigate to project folder:
 
-3. Open `index.html` in your browser
+```bash
+cd WanderSphere
+```
+
+3. Install dependencies:
+
+```bash
+npm install
+```
+
+4. Create a `.env` file and add:
+
+```bash
+DB_URL=your_database_url
+SECRET=your_secret_key
+```
+
+5. Run the server:
+
+```bash
+node index.js
+```
+
+6. Open in browser:
+
+```bash
+http://localhost:3000
+```
 
 ---
 
@@ -43,9 +83,9 @@ git clone https://github.com/Prince-karn/blog-website.git
 
 ## 💡 Future Improvements
 
-* Add backend functionality
-* Add database integration
-* Add user authentication
+* Add booking system
+* Add user reviews & ratings
+* Improve UI/UX design
 
 ---
 
